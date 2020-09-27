@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang = "es-US">
+<head>
+	<meta charset = "utf-8">
+	<title>Jade Lien</title>
+	<style type = "text/css">
+		.container {
+			width: 800px;
+			margin: auto;
+		}
+		
+		a.special:link {
+			color: gray;
+			text-decoration: none;
+		}
+		a.special:hover {
+			color: black;
+			text-decoration: none !important;
+		}
+		a.special:visited {
+			color: gray;
+			text-decoration: none;
+		}
+		
+
+		a:link {
+			color: black;
+			text-decoration: none;
+		}
+		a:hover:not(#logo) {
+			color: black;
+			text-decoration: underline;
+		}
+		a:visited {
+			color: black;
+			text-decoration: none;
+		}
+		
+		header {
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background-size: 30%;
+		}
+			.logo {
+				font-family: arial;
+				text-align: center;
+				font-size: 300%;
+				position: relative;
+			}
+			nav {
+				position: relative;
+				font-family: arial;
+				text-align: center;
+				font-size: 80%;
+			}
+			nav li {
+				display: inline-block;
+				margin-right: 30px;
+			}
+			hr {
+				color: black;
+				align: center;
+				width: 90%;
+			}
+		section {
+				
+		}
+			table {
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+				table-layout: fixed;
+			}
+			th {
+				font-family: arial;	
+				text-align: left;
+				font-size: 80%;
+			}
+			td {
+				font-family: arial;	
+				text-align: left;
+				font-size: 80%;
+				line-height: 15px;
+			}
+	</style>
+	<script type="text/javascript">
+		function getRandomInt(min, max) {
+		  min = Math.ceil(min);
+		  max = Math.floor(max);
+		  return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
+		}
+	</script>
+</head>
+
+<body>
+	<div class = "container">
+	<header>
+		<p style = "text-align:center">
+	 			<br>
+
+				<script type="text/javascript">
+					document.write('<img src="images/cover/' + getRandomInt(1, 11) + '.png" height=90% width =90%>')
+				</script>
+
+		</p>
+		<hr></hr>
+		<nav>
+			<ul>
+				<li style = "font-weight: bold;"><a href = "index.html" id = "logo">JADE LIEN ・ 連亞珏
+
+				</a></li>
+				<li>/</li>
+				<li><a href = "index.html" class = "special">Home</a></li>
+				<li>/</li>
+				<li><a href = "about.html" class = "special">About</a></li>
+				<li>/</li>
+				<li><a href = "contact.html" class = "special">Contact</a></li>
+			</ul>
+		</nav>
+		<hr></hr>
+	</header>
+	<section>
+		
+		<table>
+		  <tr>
+		    <td valign="top">
+				ABOUT<br><br>
+			    	Born in New York, 1999. Made in Taipei, Taiwan. I write in English + Mandarin.<br>
+					In the process of experimenting with different mediums including film, photography, writing, and digital art with the goal of finding new visuals and ideas in an era when even "originality is dead" has long been an olden phrase. Poetry is the basis of my work, and technology is the tool I use to create. Through them, I seek to discover original perspectives hidden and thriving in the "blind-spots" of our world. <br>
+					<br><br><br>
+			    
+			    EXPERIENCES<br><br>
+			    2020 NYC Media Lab Combine Cohort<br>
+			    2020 Fourth Wall Cinema - E-Board<br>
+			    2019 ANNY Best of Fest - Festival VR Assistance<br>
+			    2018 MurderInk, Taipei - Bookshohp Associate<br>
+			    2017-2018 Red Society Films - Production / Screenwriting Assistant<br><br><br><br><br><br><br><br>
+			 </td>
+		  </tr>
+		</table>
+		
+	</section>
+	</div>
+</body>
+
+</html>
