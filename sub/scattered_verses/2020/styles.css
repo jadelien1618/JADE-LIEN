@@ -15,14 +15,14 @@ h2 {
 	font-size: 90%;
 }
 
-p {
+body {
 	font-family: arial;
-	text-align:left;
 	margin-top: 50px;
 	font-weight: 200;
 	font-size: 90%;
 	margin-bottom: 130px;
 	line-height: 25px;
+	text-align:justify;
 }
 
 pre {
@@ -49,7 +49,9 @@ a:visited {
 
 .container {
 	margin-top:100px;
-	margin-left: 10%;
-	margin-bottom:10%;
+	margin-left:auto;
+	margin-right:auto;
+
 	width: 600px;
+
 }
