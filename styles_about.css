@@ -69,13 +69,14 @@ td {
 	text-align: left;
 	font-size: 13px;
 
-
+	line-height: 26px;
 	
 }
 
 
 span {
-	display: none; }
+	display: none; 
+}
 
 span.off {
 	display: none; }
