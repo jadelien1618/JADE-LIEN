@@ -62,6 +62,7 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	table-layout: fixed;
+	font-size: 13px;
 }
 
 td {
@@ -75,14 +76,16 @@ td {
 
 
 span {
+	font-size: 13px;
 	display: none; 
 }
 
 span.off {
+	font-size: 13px;
 	display: none; }
 
 span.on {
-	font-size: 26px;
+	font-size: 13px;
 	display: inline; }
 a.game:link {
 	text-decoration:underline dotted! important;
@@ -94,7 +97,7 @@ a.game:link {
 }
 a.game_special:link {
 	text-decoration:none! important;
-
+	font-size: 13px;
 
 }
 
