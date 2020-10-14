@@ -88,6 +88,9 @@ span.on {
 	display: inline; }
 a.game:link {
 	text-decoration:underline dotted! important;
+	-webkit-text-decoration: underline dotted ! important;
+	-webkit-text-decoration-color:gray; /* Safari */   
+   text-decoration-color: gray;
 
 }
 a.game_special:link {
@@ -108,11 +111,11 @@ font-size: 85%;
     display: inline-block;
 
     position: absolute;
-    bottom: -1.3em;
+    bottom: -1.18em;
     left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #well  {
 	display: inline-block;
@@ -123,11 +126,11 @@ font-size: 85%;
 	display: inline-block;
 
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #not  {
 	display: inline-block;
@@ -138,11 +141,11 @@ font-size: 85%;
 	display: inline-block;
 
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #jade {
 	display: inline-block;
@@ -154,11 +157,11 @@ font-size: 85%;
     display: inline-block;
 
     position: absolute;
-    bottom: -1.3em;
+    bottom: -1.18em;
     left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 	#jadelien2 {
 		display: inline-block;
@@ -169,11 +172,11 @@ font-size: 85%;
 	#jadelien2::before{content: '誰';
 		display: inline-block;
 		position: absolute;
-		bottom: -1.3em;
+		bottom: -1.18em;
 		left: 0;
 		color: gray;
 		text-align: center;
-		font-size: 80%;
+		font-size: 11px;
 		width: 100%;}
 #jadelien {
 	display: inline-block;
@@ -185,11 +188,11 @@ font-size: 85%;
 	display: inline-block;
 
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 
 #whatsup {
@@ -199,11 +202,11 @@ font-size: 85%;
 #whatsup::before{content: '近來可好';
     display: inline-block;
     position: absolute;
-    bottom: -1.3em;
+    bottom: -1.18em;
     left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #iloveyou {
 	display: inline-block;
@@ -212,11 +215,11 @@ font-size: 85%;
 #iloveyou::before{content: '我愛你';
     display: inline-block;
     position: absolute;
-    bottom: -1.3em;
+    bottom: -1.18em;
     left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #justkidding {
 	display: inline-block;
@@ -225,11 +228,11 @@ font-size: 85%;
 #justkidding::before{content: '別當真';
     display: inline-block;
     position: absolute;
-    bottom: -1.3em;
+    bottom: -1.18em;
     left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 
 #newyork {
@@ -239,11 +242,11 @@ font-size: 85%;
 #newyork::before{content: '紐約';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 
 #newyorkcity {
@@ -253,11 +256,11 @@ font-size: 85%;
 #newyorkcity::before{content: '電影場景';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #nn {
 	display: inline-block;
@@ -266,11 +269,11 @@ font-size: 85%;
 #nn::before{content: '12/14';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #taiwan {
 	display: inline-block;
@@ -279,11 +282,11 @@ font-size: 85%;
 #taiwan::before{content: '大安區';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #mediums {
 	display: inline-block;
@@ -292,11 +295,11 @@ font-size: 85%;
 #mediums::before{content: '難以抉擇';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #writing {
 	display: inline-block;
@@ -305,11 +308,11 @@ font-size: 85%;
 #writing::before{content: '文字';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 	#writing2 {
 		display: inline-block;
@@ -318,11 +321,11 @@ font-size: 85%;
 	#writing2::before{content: '行間字';
 		display: inline-block;
 		position: absolute;
-		bottom: -1.3em;
+		bottom: -1.18em;
 		left: 0;
 		color: gray;
 		text-align: center;
-		font-size: 80%;
+		font-size: 11px;
 		width: 100%;}
 #english {
 	display: inline-block;
@@ -331,11 +334,11 @@ font-size: 85%;
 #english::before{content: '英文';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #write {
 	display: inline-block;
@@ -344,11 +347,11 @@ font-size: 85%;
 #write::before{content: '書寫';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #creator {
 	display: inline-block;
@@ -357,11 +360,11 @@ font-size: 85%;
 #creator::before{content: '怪人';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 	#experimented {
 		display: inline-block;
@@ -370,11 +373,11 @@ font-size: 85%;
 	#experimented::before{content: '亂做';
 		display: inline-block;
 		position: absolute;
-		bottom: -1.3em;
+		bottom: -1.18em;
 		left: 0;
 		color: gray;
 		text-align: center;
-		font-size: 80%;
+		font-size: 11px;
 		width: 100%;}
 	#goal {
 		display: inline-block;
@@ -383,11 +386,11 @@ font-size: 85%;
 	#goal::before{content: '好難';
 		display: inline-block;
 		position: absolute;
-		bottom: -1.3em;
+		bottom: -1.18em;
 		left: 0;
 		color: gray;
 		text-align: center;
-		font-size: 80%;
+		font-size: 11px;
 		width: 100%;}
 	#new {
 		display: inline-block;
@@ -396,11 +399,11 @@ font-size: 85%;
 	#new::before{content: '奇';
 		display: inline-block;
 		position: absolute;
-		bottom: -1.3em;
+		bottom: -1.18em;
 		left: 0;
 		color: gray;
 		text-align: center;
-		font-size: 80%;
+		font-size: 11px;
 		width: 100%;}
 #originalityisdead {
 	display: inline-block;
@@ -409,11 +412,11 @@ font-size: 85%;
 #originalityisdead::before{content: '日光之下並無新事';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #function {
 	display: inline-block;
@@ -422,11 +425,11 @@ font-size: 85%;
 #function::before{content: '生存';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #create {
 	display: inline-block;
@@ -435,11 +438,11 @@ font-size: 85%;
 #create::before{content: '締造';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #ideas {
 	display: inline-block;
@@ -448,11 +451,11 @@ font-size: 85%;
 #ideas::before{content: '狂想';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #work {
 	display: inline-block;
@@ -461,11 +464,11 @@ font-size: 85%;
 #work::before{content: '題詩';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #cliche {
 	display: inline-block;
@@ -474,11 +477,11 @@ font-size: 85%;
 #cliche::before{content: '濫調';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 #mywork {
 	display: inline-block;
@@ -487,11 +490,11 @@ font-size: 85%;
 #mywork::before{content: '親愛的';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 	#originalperspectives {
 		display: inline-block;
@@ -500,11 +503,11 @@ font-size: 85%;
 	#originalperspectives::before{content: '原生生的';
 		display: inline-block;
 		position: absolute;
-		bottom: -1.3em;
+		bottom: -1.18em;
 		left: 0;
 		color: gray;
 		text-align: center;
-		font-size: 80%;
+		font-size: 11px;
 		width: 100%;}
 
 #hidden {
@@ -514,11 +517,11 @@ font-size: 85%;
 #hidden::before{content: '秘密';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 
 
@@ -529,11 +532,11 @@ font-size: 85%;
 #thriving::before{content: '猖狂';
 	display: inline-block;
 	position: absolute;
-	bottom: -1.3em;
+	bottom: -1.18em;
 	left: 0;
 	color: gray;
 	text-align: center;
-	font-size: 80%;
+	font-size: 11px;
 	width: 100%;}
 
 	#blindspots {
@@ -543,9 +546,9 @@ font-size: 85%;
 	#blindspots::before{content: '遺漏掉的';
 		display: inline-block;
 		position: absolute;
-		bottom: -1.3em;
+		bottom: -1.18em;
 		left: 0;
 		color: gray;
 		text-align: center;
-		font-size: 80%;
+		font-size: 11px;
 		width: 100%;}
