@@ -1,145 +1,166 @@
 <!DOCTYPE html>
-<html lang = "es-US">
-<head>
-	<meta charset = "utf-8">
-	<title>Jade Lien</title>
-	<style type = "text/css">
-		.container {
-			width: 800px;
-			margin: auto;
-		}
-		
-		a.special:link {
-			color: gray;
-			text-decoration: none;
-		}
-		a.special:hover {
-			color: black;
-			text-decoration: none !important;
-		}
-		a.special:visited {
-			color: gray;
-			text-decoration: none;
-		}
-		
+<html lang="es-US">
 
-		a:link {
-			color: black;
-			text-decoration: none;
-		}
-		a:hover:not(#logo) {
-			color: black;
-			text-decoration: underline;
-		}
-		a:visited {
-			color: black;
-			text-decoration: none;
-		}
-		
-		header {
-			margin-top: 30px;
-			margin-bottom: 30px;
-			background-size: 30%;
-		}
-			.logo {
-				font-family: arial;
-				text-align: center;
-				font-size: 300%;
-				position: relative;
-			}
-			nav {
-				position: relative;
-				font-family: arial;
-				text-align: center;
-				font-size: 80%;
-			}
-			nav li {
-				display: inline-block;
-				margin-right: 30px;
-			}
-			hr {
-				color: black;
-				align: center;
-				width: 90%;
-			}
-		section {
-				
-		}
-			table {
-				width: 90%;
-				margin-left: auto;
-				margin-right: auto;
-				table-layout: fixed;
-			}
-			th {
-				font-family: arial;	
-				text-align: left;
-				font-size: 80%;
-			}
-			td {
-				font-family: arial;	
-				text-align: left;
-				font-size: 80%;
-				line-height: 15px;
-			}
-	</style>
+<head>
+	<meta charset="utf-8">
+	<title>Jade Lien</title>
+	<link rel="stylesheet" href="styles_about.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<script type="text/javascript">
+
 		function getRandomInt(min, max) {
-		  min = Math.ceil(min);
-		  max = Math.floor(max);
-		  return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
+			min = Math.ceil(min);
+			max = Math.floor(max);
+			return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
 		}
+
+		function opening() {
+			$('[data-o]').click(function (e) {
+				e.preventDefault();
+				var openedby = $(this).attr('data-o');
+				$('[data-ob="' + openedby + '"]').addClass('on');
+
+				var closedby = $(this).attr('data-c');
+				$('[data-cb="' + closedby + '"]').remove();
+
+				$(this).contents().unwrap();
+
+			});
+
+		}
+		$(document).ready(function () {
+			opening();
+		});
+
 	</script>
 </head>
 
 <body>
-	<div class = "container">
-	<header>
-		<p style = "text-align:center">
-	 			<br>
+	<div class="container">
+		<header>
+			<p style="text-align:center">
+				<br>
 
 				<script type="text/javascript">
 					document.write('<img src="images/cover/' + getRandomInt(1, 11) + '.jpg" height=90% width =90%>')
 				</script>
 
-		</p>
-		<hr></hr>
-		<nav>
-			<ul>
-				<li style = "font-weight: bold;"><a href = "index.html" id = "logo">JADE LIEN ・ 連亞珏
+			</p>
+			<hr>
+			</hr>
+			<nav>
+				<ul>
+					<li style="font-weight: bold;"><a href="index.html" id="logo">JADE LIEN ・ 連亞珏
 
-				</a></li>
-				<li>/</li>
-				<li><a href = "index.html" class = "special">Home</a></li>
-				<li>/</li>
-				<li><a href = "about.html" class = "special">About</a></li>
-				<li>/</li>
-				<li><a href = "contact.html" class = "special">Contact</a></li>
-			</ul>
-		</nav>
-		<hr></hr>
-	</header>
-	<section>
-		
-		<table>
-		  <tr>
-		    <td valign="top">
+						</a></li>
+					<li>/</li>
+					<li><a href="index.html" class="special">Home</a></li>
+					<li>/</li>
+					<li><a href="about.html" class="special">About</a></li>
+					<li>/</li>
+					<li><a href="contact.html" class="special">Contact</a></li>
+				</ul>
+			</nav>
+			<hr>
+			</hr>
+		</header>
+		<section>
+
+			<table>
+				<tr>
+					<td valign="top">
+
+						ABOUT<br><br>
+						<div style="position: relative; margin: 0 auto; text-align: left; padding-top: 24px">
+							<div style="position: absolute; margin: 0 auto; text-align: left; padding-top: 0px ;">
+							<span data-ob = "1.5" class = "inbetweens"><i>我獻給你生擒活捉的文字。</span></div>
+
+								<div style="position: absolute; margin: 0 auto; text-align: left; padding-top: 32px;">
+								<span data-ob = "2.7" class = "inbetweens">當你閱讀時，是否能感受到它們仍然在喘息，如缺氧的魚兒在岸上臨死跳動？</span></div>
+
+								<div style="position: absolute; margin: 0 auto; text-align: left; padding-top:64px">
+								<span data-ob = "3.8" class = "inbetweens">請你諒解我的曖昧、以身體會字裡行間之情。</span></div>
+
+								<div style="position: absolute; margin: 0 auto; text-align: left; padding-top:96px">
+								<span data-ob = "3.11" class = "inbetweens">
+									我僅是機械化地行使使命，一刀一刀割下血淋淋的魚肉塊，包裝成文字的樣貌，雙手捧著誠心送給你。</span></div>
+
+								<div style="position: absolute; margin: 0 auto; text-align: left; padding-top:128px">
+								<span data-ob = "3.14" class = "inbetweens">
+									未經烹煮過的文字將如生食般，很快地腐朽、過期，被扔棄。
+								</span></div>
+
+								<div style="position: absolute; margin: 0 auto; text-align: left; padding-top:160px">
+									<span data-ob = "3.16" class = "inbetweens">
+								我並不信賴自己所寫的，只想你見我執迷的樣子以即刻拯救我。
+							</span></div>
+
+							<div style="position: absolute; margin: 0 auto; text-align: left; padding-top:192px">
+								<span data-ob = "4.5" class = "inbetweens">
+								發覺割捨的是自己早已碎裂的心肌，怕慢慢失血也將在一日昏死過去。
+							</span></div>
+
+							</i>
+
+							<div style="position: absolute; top: 0; width: 100%; line-height:32px">
+						<a data-o="1.1" href=# class="game" id="hello">Hello</a>.
+						<span data-ob="1.1"><a data-o="1.2" href=# class="game" id="whatsup">What's up?</a></span>
+						<span data-ob="1.2"><a data-o="1.3" data-c="1.3" data-cb="1.3" href=# class="game"
+								id="iloveyou">I love you.</a></span>
+						<span data-ob="1.3"><a data-o="1.4" data-c="1.4" data-cb="1.4" href=# class="game"
+								id="justkidding">Just kidding...</a></span>
+						<span data-ob="1.4">I hope you're doing <a data-o = "1.5" href = # class = "game" id=well>well</a>.</span>
+						<br>
+
+						My name is
+						<a data-o="2.1" data-c="2.1" data-cb="2.1" href=# class="game" id="jade">Jade</a><span
+							data-ob="2.1"><a data-o="2.2" data-c="2.2" data-cb="2.2" href=# class="game"
+								id="jadelien">Jade Lien</a></span><span data-ob="2.2"><a data-o="3.1" href=# class="game" id="jadelien2">Jade Lien</a></span>.
+						<span data-ob="2.2">I was born in
+							<a data-o="2.3" data-c="2.3" data-cb="2.3" href=# class="game" id="newyork">New York.</a>
+							<span data-ob="2.3"><a data-o="2.3" href=# class="game"><a data-o="2.4" data-c="2.4"
+										data-cb="2.4" href=# class="game" id="newyorkcity">New York City.</a></span>
+							<span data-ob="2.4">New York City, <a data-o="2.5" href=# class="game" id="nn">1999</a><span
+									data-ob="2.5">, but grew up in Taipei, <a data-o="2.6" href=# class="game"
+										id="taiwan">Taiwan</a><span data-ob="2.6"> (<a data-o = 2.7 href = # class = "game" id = not>not</a>
+										Thailand)</span></span>.</span><br>
+
+							<span data-ob="3.1"> As a <a data-o = "3.2" data-c = "3.2" data-cb = "3.2" href = # class = "game" id ="creator" >creator</a><a data-o = "3.2" data-c = "3.2" data-cb = "3.2" href = #  class = "game_special">...</a></span><span data-ob="3.2" >creator, I have <a data-o =3.4 href = # class = "game" id = experimented>experimented</a> with different <a data-o="3.3" href=# class="game"
+								id="mediums">artistic mediums</a></span><span data-ob="3.3"> including film,
+								photography, <a data-o = "4.1" data-c = "4.1" data-cb = 4.1 href = # class = "game" id = "writing">writing</a><span data-ob =4.1><a data-o = 3.8 href = # class = "game" id = writing2>writing</a></span>, and digital art</span><span 
+								data-ob = "3.4">, with the <a data-o = "3.5" data-c = "3.5" data-cb = "3.5" href = # class = "game" id = "goal">goal</a><a data-o = "3.5" data-c = "3.5" data-cb = "3.5" href = # class = "game_special">..</span></a><span data-ob = 3.5> goal of finding <a data-o = 3.6 href = # class = game id = new >new</a> visuals and <a data-o = 3.9 href = # class = game id = ideas>ideas</a></span><span data-ob = 3.6> in an era where <a data-o = 3.7 href = #  class = "game" id = originalityisdead>"originality is dead"</a><span data-ob = 3.7> is itself a <a data-o = 3.11 href = # class = game id = cliche>clichéd</a> term</span></span><span data-ob = "3.2">.</span>
+								<span data-ob = "3.9">Poetry is the basis of <a data-c = 3.10 data-cb = 3.10>my</a> <a data-o = 3.10 data-c = 3.10 data-cb = 3.10 href = # class = game id = work>work</a></span><span data-ob = 3.10> <a data-o= 3.12 href = # class = game id = mywork>my work</a>, technology the tool I use to create</span><span data-ob = 3.9>.</span>
+								<span data-ob = 3.12>Through them, I seek to discover <a data-o = 3.13 href = # class = game id = originalperspectives>original perspectives</a></span><span data-ob = 3.13> <a data-o = 3.14 href = # class = game id = hidden>hidden</a> and <a data-o = 3.15 href = # id = thriving class = game> thriving</a><span data-ob=3.15> in the <a data-o = 3.16 href = # class = game id = blindspots>"blind-spots"</a> of our world</span></span><span data-ob = 3.12>.</span>
+								<br>
+							
+							<span data-ob = "4.1">I <a data-o = "4.2" href = # class = "game" id = "write">write</a><span data-ob = "4.2"> / <a data-o = 4.4 href = # class = game id = function>function</a></span><span data-ob = 4.4> / <a data-o = 4.5  href =  # class = game id = create>create</a></span></a> in <span data-ob = "4.3">both </span><a data-o="4.3" href = # class = "game" id = "english">English</a><span data-ob = "4.3"> and Mandarin</span></span><span data-ob = "4.1">.</span>
+
+
+							</div></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+						EXPERIENCES<br><br>
+								2020 NYC Media Lab Combine Cohort<br>
+								2020 Fourth Wall Cinema - E-Board<br>
+								2019 ANNY Best of Fest - Festival VR Assistance<br>
+								2018 MurderInk, Taipei - Bookshohp Associate<br>
+								2017-2018 Red Society Films - Production / Screenwriting Assistant<br><br><br><br><br><br><br><br><br>
+							<!--
+
 				ABOUT<br><br>
-			    	Born in New York, 1999. Made in Taipei, Taiwan. I write in English + Mandarin.<br>
-					In the process of experimenting with different mediums including film, photography, writing, and digital art with the goal of finding new visuals and ideas in an era when even "originality is dead" has long been an olden phrase. Poetry is the basis of my work, and technology is the tool I use to create. Through them, I seek to discover original perspectives hidden and thriving in the "blind-spots" of our world. <br>
+			    	Born in New York, 1999</span>. Made in Taipei, Taiwan. I write in English and Mandarin.<br>
+					In the process of experimenting with different mediums including film, photography, writing, and digital art 
+					with the goal of finding new visuals and ideas in an era when even "originality is dead" is itself a clichéd term. 
+					Poetry is the basis of my work, technology the tool I use to create. Through them, I seek to discover original perspectives hidden and thriving in the "blind-spots" of our world. <br>
 					<br><br><br>
 			    
-			    EXPERIENCES<br><br>
-			    2020 NYC Media Lab Combine Cohort<br>
-			    2020 Fourth Wall Cinema - E-Board<br>
-			    2019 ANNY Best of Fest - Festival VR Assistance<br>
-			    2018 MurderInk, Taipei - Bookshohp Associate<br>
-			    2017-2018 Red Society Films - Production / Screenwriting Assistant<br><br><br><br><br><br><br><br>
-			 </td>
-		  </tr>
-		</table>
-		
-	</section>
+			  
+				-->
+					</td>
+				</tr>
+			</table>
+
+		</section>
 	</div>
 </body>
 
