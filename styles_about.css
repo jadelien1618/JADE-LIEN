@@ -45,7 +45,7 @@ nav {
 	position: relative;
 	font-family: arial;
 	text-align: center;
-	font-size: 80%;
+	font-size: 13px;
 }
 nav li {
 	display: inline-block;
@@ -63,11 +63,7 @@ table {
 	margin-right: auto;
 	table-layout: fixed;
 }
-th {
-	font-family: arial;	
-	text-align: left;
-	font-size: 80%;
-}
+
 td {
 	font-family: arial;	
 	text-align: left;
