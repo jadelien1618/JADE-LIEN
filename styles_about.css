@@ -74,7 +74,7 @@ td {
 	font-size: 13px;
 
 	line-height: 29px;
-	
+	-webkit-text-size-adjust: none;
 }
 
 
@@ -96,12 +96,13 @@ a.game:link {
 	-webkit-text-decoration-color:gray; /* Safari */   
    text-decoration-color: gray;
    font-size: 13px;
+   -webkit-text-size-adjust: none;
 
 }
 a.game_special:link {
 	text-decoration:none! important;
 	font-size: 13px;
-
+	-webkit-text-size-adjust: none;
 }
 
 .inbetweens {
