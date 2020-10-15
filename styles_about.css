@@ -15,7 +15,14 @@ a.special:visited {
 	color: gray;
 	text-decoration: none;
 }
-
+.image { 
+	width: 17%;
+	height: 17%;
+}
+.image:hover {
+	width:70%;
+	height:70%;
+}
 
 a:link {
 	color: black;
@@ -206,7 +213,7 @@ font-size: 85%;
 	display: inline-block;
     position: relative;
 }
-#whatsup::before{content: '近來可好';
+#whatsup::before{content: '你好嗎';
     display: inline-block;
     position: absolute;
     bottom: -1.18em;
@@ -403,7 +410,7 @@ font-size: 85%;
 		display: inline-block;
 		position: relative;
 	}
-	#new::before{content: '奇';
+	#new::before{content: '異';
 		display: inline-block;
 		position: absolute;
 		bottom: -1.18em;
@@ -468,7 +475,7 @@ font-size: 85%;
 	display: inline-block;
 	position: relative;
 }
-#work::before{content: '題詩';
+#work::before{content: '創作';
 	display: inline-block;
 	position: absolute;
 	bottom: -1.18em;
@@ -546,11 +553,24 @@ font-size: 85%;
 	font-size: 11px;
 	width: 100%;}
 
-	#blindspots {
+#blindspots {
+	display: inline-block;
+	position: relative;
+}
+#blindspots::before{content: '遺漏掉的';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+	#mandarin {
 		display: inline-block;
 		position: relative;
 	}
-	#blindspots::before{content: '遺漏掉的';
+	#mandarin::before{content: '中文版';
 		display: inline-block;
 		position: absolute;
 		bottom: -1.18em;
@@ -559,3 +579,54 @@ font-size: 85%;
 		text-align: center;
 		font-size: 11px;
 		width: 100%;}
+
+
+h1 {
+	font-size: 19px;
+	display: inline;
+	font-weight: normal;
+
+}
+
+h2 {
+	font-size: 22px;
+	display: inline;
+	font-weight: normal;
+
+}
+
+h3 {
+	font-size: 25px;
+	display: inline;
+	font-weight: normal;
+
+}
+
+h4 {
+	font-size: 28px;
+	display: inline;
+	font-weight: normal;
+
+}
+h5 {
+	font-size: 11PX;
+	display: inline;
+	font-weight: normal;
+
+}
+
+h6 {
+	font-size: 13px;
+	display: inline;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+
+#red {
+	color: red !important;
+
+}
+#linethrough {
+	text-decoration: line-through;
+}
