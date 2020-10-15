@@ -267,7 +267,7 @@ font-size: 85%;
 	display: inline-block;
 	position: relative;
 }
-#newyorkcity::before{content: '電影場景';
+#newyorkcity::before{content: '沒啥印象';
 	display: inline-block;
 	position: absolute;
 	bottom: -1.18em;
