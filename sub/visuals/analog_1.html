@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang = "es-US">
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset = "UTF-8">
+
+	<title>Analog Photography</title>
+	<style>
+
+		table {
+				width: 800px;
+				margin-left: 0;
+
+				table-layout: fixed;
+				-webkit-text-size-adjust: none;
+			}
+			.container {
+
+	width: 850px; !important
+	margin-left:auto; !important
+	margin-right:auto; !important
+	-webkit-text-size-adjust: none;
+}
+
+		td:nth-child(1) {
+  			width: 0px;
+			  -webkit-text-size-adjust: none;
+			  
+  		}
+		td:nth-child(2) {
+  			width: 23px;
+			  -webkit-text-size-adjust: none;}
+
+		td:nth-child(3) {
+  			width: 23px;
+			  -webkit-text-size-adjust: none;
+ 		}
+ 		td:nth-child(4) {
+  			width: 23px;
+			  -webkit-text-size-adjust: none;
+ 		}
+		 td:nth-child(5) {
+  			width: 23px;
+			  -webkit-text-size-adjust: none;
+ 		}
+ 		td:nth-child(6) {
+			  width: 23px;
+			  -webkit-text-size-adjust: none;
+
+		 }
+		 td:nth-child(7) {
+			  width: 20px;
+			  -webkit-text-size-adjust: none;
+
+		 }
+		 td:nth-child(8) {
+			  width: 65px;
+			  -webkit-text-size-adjust: none;
+
+ 		}
+
+
+		
+		
+	</style>
+<script>
+	function toggle(obj,all) {
+			var hide=document.querySelectorAll('.'+all);
+			var i =-1;
+    		while (node=hide[++i]) {
+        	node.style.display ="none";
+				};
+				
+			var thisElem  = document.getElementById(obj);
+			var wasShown  = (thisElem.style.display == "block");
+
+			if(!wasShown){
+			thisElem.style.display = "block";
+	}
+	}
+
+	function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+</script>
+</head>
+
+
+
+<div class = "container">
+<h1><a href= "analog_1.html" id = "logo"><b>Analog Photography</b></a></h1>
+<body>
+<br>
+<table>
+	<td valign="top"></td>
+	<td valign="top">
+		<b>2020</b><br>
+		<a href="javascript: void(0);" onClick="toggle('201126_1','all'); topFunction();">
+			<div style=" display: inline;  "><img src="resources/photography/analog_1/tiny/20/1126_1.png" height = 25px width= 25px></div> 
+			&nbsp;Nov.26
+		</a><br>
+		<a href="javascript: void(0);" onClick="toggle('201126_2','all'); topFunction();">
+			<div style=" display: inline;  "><img src="resources/photography/analog_1/tiny/20/1126_2.png" height = 25px width= 25px></div> 
+			&nbsp;Nov.26
+		</a><br>
+		<a href="javascript: void(0);" onClick="toggle('201126_3','all'); topFunction();">
+			<div style=" display: inline;  "><img src="resources/photography/analog_1/tiny/20/1126_3.png" height = 25px width= 25px></div> 
+			&nbsp;Nov.26
+		</a><br>
+		<a href="javascript: void(0);" onClick="toggle('201126_4','all'); topFunction();">
+			<div style=" display: inline;  "><img src="resources/photography/analog_1/tiny/20/1126_4.png" height = 25px width= 25px></div> 
+			&nbsp;Nov.26
+		</a><br>
+</td>
+	<td valign="top"></td>
+
+
+<td valign="top" >
+	<br>
+	<div id="201126_1" class = "all" style="display:none" >
+		<img src="resources/photography/analog_1/normal/20/1126_1.jpg" height=120% width =120% >
+		<br>November 26, 2020
+	</div>
+	<div id="201126_2" class = "all" style="display:none" >
+		<img src="resources/photography/analog_1/normal/20/1126_2.jpg" height=120% width =120% >
+		<br>November 26, 2020
+	</div>
+	<div id="201126_3" class = "all" style="display:none" >
+		<img src="resources/photography/analog_1/normal/20/1126_3.jpg" height=120% width =120% >
+		<br>November 26, 2020
+	</div>
+	<div id="201126_4" class = "all" style="display:none" >
+		<img src="resources/photography/analog_1/normal/20/1126_4.jpg" height=120% width =120% >
+		<br>November 26, 2020
+	</div>
+</td>
+
+</table>
+
+	</body>
+	<br><br><br>
+
+<h2><a href= "../../index.html">< back</a></h2>
+</div>
+</html>
