@@ -106,6 +106,15 @@ a.game:link {
    -webkit-text-size-adjust: none;
 
 }
+a.game2:link {
+	text-decoration:none! important;
+	-webkit-text-decoration: none ! important;
+	-webkit-text-decoration-color:gray; /* Safari */   
+   text-decoration-color: gray;
+   font-size: 13px;
+   -webkit-text-size-adjust: none;
+
+}
 a.game_special:link {
 	text-decoration:none! important;
 	font-size: 13px;
