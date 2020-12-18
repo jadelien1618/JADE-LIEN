@@ -23,6 +23,7 @@ body {
 	margin-bottom: 130px;
 	line-height: 25px;
 	text-align:justify;
+	-webkit-text-size-adjust: none;
 }
 
 pre {
@@ -33,6 +34,7 @@ pre {
 	line-height: 30px;
 	margin-top: 50px;
 	margin-bottom: 130px;
+	-webkit-text-size-adjust: none;
 }
 
 a:link {
@@ -51,6 +53,6 @@ a:visited {
 	margin-top:100px;
 	margin-left:auto;
 	margin-right:auto;
-
+	-webkit-text-size-adjust: none;
 	width: 600px;
 }
