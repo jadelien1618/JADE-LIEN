@@ -1,0 +1,59 @@
+h1 {
+	font-family: arial;
+	text-align:left;
+	margin-bottom: 30px;
+	font-weight: 200;
+	font-size: 90%;
+	text-decoration: underline;
+}
+
+h2 {
+	font-family: arial;
+	text-align:left;
+	margin-top: 50px;
+	font-weight: 200;
+	font-size: 90%;
+}
+
+body {
+	font-family: arial;
+	margin-top: 50px;
+	font-weight: 200;
+	font-size: 90%;
+	margin-bottom: 130px;
+	line-height: 25px;
+	text-align:justify;
+	-webkit-text-size-adjust: none;
+}
+
+pre {
+	font-family: arial;
+	text-align:left;
+	font-weight: 100;
+	font-size: 90%;
+	line-height: 30px;
+	margin-bottom: 130px;
+	margin-top: 50px;
+	-webkit-text-size-adjust: none;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.container {
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	-webkit-text-size-adjust: none;
+	width: 600px;
+
+}
