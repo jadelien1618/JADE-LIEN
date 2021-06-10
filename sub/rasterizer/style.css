@@ -1,0 +1,114 @@
+﻿.header {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: .1400em;
+}
+
+.header:hover {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: .1400em;
+}
+
+.item {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 00em;
+}
+
+.statement {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 00em;
+}
+
+.statement:hover {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: underline;
+  color: #000000;
+  letter-spacing: 00em;
+}
+
+#top {
+  position: fixed;
+  width: 7600px;
+  height: 300px;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+#bottom {
+  margin-top: 560px;
+  position: fixed;
+  width: 800px;
+  height: 200px;
+  padding-left: 54px;
+}
+
+.buffer {
+  padding: 26px;
+  
+}
+
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 130px;
+  height: 16px;
+}
+
+audio::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+  
+audio::-webkit-media-controls-volume-slider {
+  display: none !important;
+}
+  
+audio::-webkit-media-controls-volume-control-container.closed {
+  display: none !important;
+}
+
+audio::-webkit-media-controls-volume-control-container{
+  display: none !important;
+}
+  
+
+
+
+.images img {
+  width: 300px;
+  height: 533px;
+  float: left;
+  padding: 5px;
+}
+
+.images #horizontal img
+
+{
+  width: 804px;
+  height: 533px;
+  float: left;
+  padding: 5px;
+}
+

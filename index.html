@@ -1,303 +1,212 @@
 ﻿<!DOCTYPE html>
 <html lang="es-US">
 
-<head>
-	<meta charset="UTF-8">
+	<head>
+		<meta charset="UTF-8">
 
-	<title>Jade Lien</title>
-	<style type="text/css">
-		.container {
-			width: 800px;
-			margin: auto;
-		}
+		<link rel="stylesheet" href="style.css">
 
+		<title>Jade Lien</title>
 
-		a.special:link {
-			color: gray;
-			text-decoration: none;
-		}
-
-		a.special:hover {
-			color: black;
-			text-decoration: none !important;
-		}
-
-		a.special:visited {
-			color: gray;
-			text-decoration: none;
-		}
-
-
-		a:link {
-			color: black;
-			text-decoration: none;
-		}
-
-		a:hover:not(#logo) {
-			color: black;
-			text-decoration: underline;
-		}
-
-		a:visited {
-			color: black;
-			text-decoration: none;
-		}
-
-
-
-		header {
-			margin-top: 30px;
-			margin-bottom: 30px;
-			background-size: 30%;
-		}
-
-		nav {
-			position: relative;
-			font-family: arial;
-			text-align: center;
-			font-size: 13px;
-			
-		}
-
-		nav li {
-			display: inline-block;
-			margin-right: 30px;
-		}
-
-		hr {
-			color: black;
-			align: center;
-			width: 90%;
-		}
-
-		section {
-			margin-bottom: 60px;
-		}
-
-		table {
-			width: 90%;
-			margin-left: auto;
-			margin-right: auto;
-			table-layout: fixed;
-
-		}
-
-		th {
-			font-family: arial;
-			text-align: left;
-			font-size: 13px;
-		}
-
-		td {
-			font-family: arial;
-			text-align: left;
-			font-size: 13px;
-			line-height: 15px;
-			padding: 0 0 0 13px;
-
-		}
-
-		#bordered {
-			line-height: 18px;
-			border: 1px solid black;
-			border-collapse: separate;
-			padding: 0.8rem 0 0.8rem 0.8rem;
-			 !important;
-
-
-		}
-
-		footer {
-			font-family: arial;
-			text-align: right;
-			font-size: 13px;
-			color: #d2d2d2;
-		}
-
-		tab {
-			margin-left: 4em
-		}
-	</style>
-	<script type="text/javascript">
-		function getRandomInt(min, max) {
-			min = Math.ceil(min);
-			max = Math.floor(max);
-			return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
-		}
-	</script>
-</head>
-
-<body>
-	<div class="container">
-		<header>
-			<p style="text-align:center">
-				<br>
-				<a href="index.html">
-					<script type="text/javascript">
-						document.write('<img src="images/cover/' + getRandomInt(1, 11) + '.jpg" height=90% width =90%>')
-					</script>
-				</a>
-				<br><br>
-			</p>
-			<hr>
-			</hr>
-			<nav>
-				<ul>
-					<li style="font-weight: bold;"><a href="index.html" id="logo">JADE LIEN ・ 連亞珏</a></li>
-					<li>/</li>
-					<li><a href="index.html" class="special">Home</a></li>
-					<li>/</li>
-					<li><a href="about.html" class="special">About</a></li>
-					<li>/</li>
-					<li><a href="contact.html" class="special">Contact</a></li>
-				<!--	<li>
-						<form id="form" role="search">
-						<input type="search" id="query" name="q"
-						 placeholder="Search..."
-						 aria-label="Search through site content">
-						<script>		
-							const f = document.getElementById('form');
-							const q = document.getElementById('query');
-							const google = 'https://www.google.com/search?q=site%3A+';
-							const site = 'jadelien.com';
+		<style type="text/css"></style>
+		<script type="text/javascript">
+				function toggle(obj,all) {
 					
-							function submitted(event) {
-								event.preventDefault();
-								const url = google + site + '+' + q.value;
-								const win = window.open(url, '_blank');
-								win.focus();
-							}
+					var hide=document.querySelectorAll('.'+all);
+					var i =-1;
 					
-							f.addEventListener('submit', submitted);
-						</script>
-					  </form>
-					</li>-->
-				</ul>
-			</nav>
-			<hr>
-			</hr>
-		</header>
-		<section>
+					while (node=hide[++i]) {
+						node.style.display ="none";
+					};
 
-			<table>
-				<tr>
-					<td valign="top" colspan=3 id=bordered>
-						RECENT HIGHLIGHTS<br><br>
-						吉加・維爾托夫早在1920年代便呼籲世人解放「電影眼」。攝影機隨即成了開採現實的機器怪手——呈現千百萬種視角的「可能性」是種徒勞、唯使觀眾失望地意識到眼前世界的「單一性」——又如軍用導彈朝向目標體筆直飛去，侵略及摧毀所被拍攝之人事物，剝奪其現實感、扼殺使他們栩栩如生的所有性質——「當你（以攝影機）捕捉一個瞬刻，你捕捉到的是亡去的一個瞬刻。」––David
-						Cronenberg, <i>Camera </i><br><br>
-						這個時代的人們大多已不再完全懵然無知、成為柏拉圖洞穴寓言裡那位脫離枷鎖，走入實體世界當中的囚徒。但有幸生活於觸手可及之「現實」當中的我們（先不論現實之虛實——是否現實在現代不過是由不同意識形態所限定而製出另一套、有別於洞穴之壁上的第二層幻影？），仍然受困於「觀看的方式」，渴望進一步脫離具主體意識的「視角」/「觀點」本身。活在三維度裡卻企圖跳脫至四維度（利用文字為跳板之媒介、以夢境為轉化之空間等）。多麽想翱翔於天際，不，是比天更高之際、想以更具全面性的視角，跨越時間、空間，來看世界，如但丁在神曲裡頭飛往天堂，九重天全數映入眼簾。
-					</td>
-					<td valign="top" colspan=2.5>
-						SCATTERED VERSES <br><br>
-						<b>2021</b><br>
-						<a href="sub/scattered_verses/2021/March.html">March </a><br><br>
+					var thisElem  = document.getElementById(obj);
+					var wasShown  = (thisElem.style.display == "block");
 
+					if(!wasShown){
+						thisElem.style.display = "block";
+					}
+				}
 
-						<b>2020</b><br>
-						<a href="sub/scattered_verses/2020/December.html">December </a><br>
-						<a href="sub/scattered_verses/2020/November.html">November </a><br>
-						<a href="sub/scattered_verses/2020/October.html">October </a><br>
-						<a href="sub/scattered_verses/2020/September.html">September </a><br>
-						<a href="sub/scattered_verses/2020/August.html">August </a><br>
-						<a href="sub/scattered_verses/2020/July.html">July </a><br>
-						<a href="sub/scattered_verses/2020/June.html">June </a><br>
-						<a href="sub/scattered_verses/2020/May.html">May </a><br>
-						<a href="sub/scattered_verses/2020/April.html">April </a><br><br>
-						<b>concepts </b><br>
-						<a href="sub/concepts/貓.html">貓</a><br>
-						<a href="sub/concepts/名為生活的國度.html">名為生活的國度</a><br>
-						<a href="sub/concepts/無言城市.html">無言城市</a><br><br>
+				function topFunction() {
+					document.body.scrollTop = 0; // For Safari
+					document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+					document.getElementById('right').scrollLeft = 0;
+					document.getElementById('left').scrollTop = 0;
+				}
 
-						<b> notes </b><br>
-						<a href="sub/notes/顛倒相.html">顛倒相</a><br>
-						<a href="sub/notes/水母.html"> 水母: 海中殺人天使</a><br><br>
-						<b> letter never sent</b> <br>
-						<a href="sub/letter_never_sent/March 11, 2020.html"> March 11, 2020</a><br><br>
+			//	if (screen.width <= 699) {
+			//		document.location = "https://jadelien1618.github.io/ntuphoto_horizontal/mobile/mobile.html";
+			//	}
 				
-						<b>archive </b><br>
-						<a href="sub/archive/english_verses.html">English Verses</a><br><br>
+			//	if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+ 			//	  location.replace("https://jadelien1618.github.io/ntuphoto_horizontal/mobile/mobile.html");
+			//	}
 
-					</td>
-					<td valign="top" colspan=2.5>
-						WRITINGS <br><br>
-						<b>coming soon</b><br>
-							<!--<a href = "sub/writings/mia.html">-->
-								M.I.A.<br><br>
-								<!--</a>-->
-		
-					
+		</script>
+	</head>
 
-						<b>2020</b><br>
-						<a href = "sub/writings/soul.html">掉落的靈混碎片<br></a>
-						<a href = "sub/writings/nakeddiscourse.html">
-								裸體性論述<br></a><br>
-								<b>collab</b> <br>
-								<a href="sub/collab/子宮穹蒼之下.html">子宮穹蒼之下 </a><br>
-								<a href="sub/collab/怪物先生.html">怪物先生 </a><br>
-								<br>
-						<b>2019</b><br>
-						<a href="sub/writings/the_bitumen_drips.html">The Bitumen Drips</a><br><br>
-						<a href="sub/writings/extinction.html">On Human Extinction as Tragedy</a><br><br>
-						<a href="sub/writings/clockwork_orange.html">Art and Violence <br>in <i>A Clockwork
-							Orange</i></a><br><br><br>
+	<body>
+		<div class = "outercontainer">
+
+			<div id = "left" class = "scrolling-wrapper-left">
+				<header>
+					<a class = "header" href = "index.html">
+						JADE LIEN &nbsp 連亞珏<br> 
+					</a>
+				</header>
+				<nav>
+					<ul>
+						<li><a href="javascript: void(0);" onClick="toggle('about','all'); topFunction();" class = "item">
+							ABOUT Me ;)</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('experiences','all'); topFunction();" class = "item">
+							EXPERIENCES</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('contact','all'); topFunction();" class = "item">
+							CONTACT</a></li>
+						<li><a href = "https://www.instagram.com/cnnmn_cnm/" target="_blank" class = "item">
+							instagram @cnnmn_cnm</a></li>
+						<li><a href = "https://flipermag.com/2020/11/22/jade-lien-illustration/" target="_blank" class = "item">
+							FLiPER 生活藝文誌【不只是攝影...</a></li><br>
+				
+
+						<li class = "statement"><b>VIDEO</b></li>
+
+						<li><a href="javascript: void(0);" onClick="toggle('strikethrough21','all'); topFunction();" class = "item">
+							2021 Strikethrough '21</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('strikethrough','all'); topFunction();" class = "item">
+							2020 Strikethrough</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('jadeandi','all'); topFunction();" class = "item">
+							2019 Jade and I</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('thoughtexperiment','all'); topFunction();" class = "item">
+							2018 思想實驗 之 懈怠的劇作家</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('whismuring','all'); topFunction();" class = "item">
+							2017 微語 Whismuring</a></li><br>
+
+						<li class = "statement"><b>PHOTOGRAPHY</b></li>
+						<li><a href="javascript: void(0);" onClick="toggle('iphone','all'); topFunction();" class = "item">
+							iPhone photography</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('test','all'); topFunction();" class = "item">
+							digital photography</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('analog','all'); topFunction();" class = "item">
+							analog photography</a></li>
+										
+						<li><a href="javascript: void(0);" onClick="toggle('bluetime','all'); topFunction();" class = "item">
+							2021 Blue Time (cyanotype)</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('flowers','all'); topFunction();" class = "item">
+							the look of flowers that are looked...</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('dynamics','all'); topFunction();" class = "item">
+							dynamics of growth in a finite world</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('double','all'); topFunction();" class = "item">
+							double-self portrait</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('wounds','all'); topFunction();" class = "item">
+							wonder wounds</a></li><br>
+
+						<li class = "statement"><b>VISUAL CODING</b></li>
+						<li><a href="javascript: void(0);" onClick="toggle('rasterizer','all'); topFunction();" class = "item">
+							image-keyword rasterizer</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('slitscan','all'); topFunction();" class = "item">
+							slitscan stereographic projection</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('audiovisual','all'); topFunction();" class = "item">
+							audiovisual sound stamps</a></li><br>
+
+						<li class = "statement"><b>CREATIVE WRITING</b></li>
+						<li class = "statement">coming soon... MIA</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('aswelikeit','all'); topFunction();" class = "item">
+							子宮穹蒼之下</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('whismuring','all'); topFunction();" class = "item">
+							2019 The Bitumen Drips</a></li><br>
 
 
+						<li class = "statement"><b> OTHERS</b></li>
+	
+						<li><a href="javascript: void(0);" onClick="toggle('antithesis','all'); topFunction();" class = "item">
+							thesis, antithesis, synthesis with stick...</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('flipbook','all'); topFunction();" class = "item">
+							animation flipbook</a></li>
+						<li><a href="javascript: void(0);" onClick="toggle('vocal','all'); topFunction();" class = "item">
+							vocalization project: walking and falling</a></li>
+							<br><br><br>
+						<li><div class = "copyright">© 2021 cnnmn_cnm.</div></li>
+	
+			</ul>
+				</nav>
 
-					</td>
-					<td valign="top" colspan=2.5>
-						VISUALS<br><br>
-						<b>photography</b>
-						<a href="sub/visuals/digital_1.html">Digital</a><br>
-						<a href="sub/visuals/analog_1.html">Analog</a><br><br>
-						<b>2021</b><br>
-						<a href="sub/visuals/strikethrough2.html">Strikethrough 2</a><br><br>
-
-						<b>2020</b><br>
-						<a href="sub/visuals/strikethrough.html">Strikethrough</a><br><br>
-						<b>2019</b><br>
-						<a href="sub/visuals/jade_and_i.html">Jade and I </a><br><br>
-						<b>2018</b><br>
-						<a href="sub/visuals/thought_experiment.html">Thought Experiment: <br>the Lazy
-							Screenwriter</a><br><br>
-						<a href="sub/visuals/whismuring.html">Whismuring</a><br><br><br><br>
-					</td>
+		</div>
 
 
-					<td valign="top" colspan=2.5>
-						MINI PROJECTS <br><br>
-						<b>2021</b><br>
-						<a href="sub/others/wonderwounds.html">Wonder Wounds</a><br><br>
-						<b>2020</b><br>
-						<a href="sub/others/10sketches.html">10 Sketches of You and I</a><br><br>
-						<a href="sub/others/slitscan.html">Slitscan Panorama</a><br><br>
-						<a href="sub/others/stick_figure_synthesis.html">Thesis, Antithesis, Synthesis with<br> Stick Figures</a><br><br>
-						<a href="sub/others/audiovisual.html">Audiovisual Sound Stamps</a><br><br>
-						<b>2019</b><br>
-						<a href="sub/others/flipbook.html">Animation Flipbook</a><br><br>
-						<b>2018</b><br>
-						<a href="sub/others/walking_and_falling.html">Vocalization Project: Walking and
-							Falling</a><br><br><br><br>
-							FEATURES <br><br>
-							<a href = 'https://flipermag.com/2020/11/22/jade-lien-illustration/'>
-								"不只是攝影, 也是自我狀態的檢視" ––FLiPER 生活藝文誌 (Nov. 22, 2020)</a> 
-							<br><br>
+			<div id = "right" class="scrolling-wrapper">
+				<div id="about" class = "all" style="display:block" >
+					<iframe src="sub/about/about.html" style="height:720px;width:100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="about" class = "all" style="display:none" >
+					<iframe src="sub/about/about.html" style="height:720px;width:100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="iphone" class = "all" style="display:none" >
+					<iframe src="sub/iphone/iphone.html" style="height:720px;width:8990px;border:0;" title="test"></iframe>
+				</div>
+				<div id="experiences" class = "all" style="display:none" >
+					<iframe src="sub/experiences/experiences.html" style="height:720px;width:100%;border:0;" title="test"></iframe>
+				</div>
+				<div id="strikethrough21" class = "all" style="display:none" >
+					<iframe src="sub/strikethrough21/strikethrough21.html" style="height:720px;width:2240px;border:0;" title="test"></iframe>
+				</div>
+				<div id="slitscan" class = "all" style="display:none" >
+					<iframe src="sub/slitscan/slitscan.html" style="height:720px;width:2247px;border:0;" title="test"></iframe>
+				</div>
+				<div id="audiovisual" class = "all" style="display:none" >
+					<iframe src="sub/audiovisual/audiovisual.html" style="height:720px;width:3355px;border:0;" title="test"></iframe>
+				</div>
+				<div id="rasterizer" class = "all" style="display:none" >
+					<iframe src="sub/rasterizer/rasterizer.html" style="height:720px;width:1968px;border:0;" title="test"></iframe>
+				</div>
+				<div id="contact" class = "all" style="display:none" >
+					<iframe src="sub/contact/contact.html" style="height:720px;width:100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="thoughtexperiment" class = "all" style="display:none" >
+					<iframe src="sub/thoughtexperiment/thoughtexperiment.html" style="height:720px;width: 6020px;border:0;" title="about"></iframe>
+				</div>
+				<div id="bluetime" class = "all" style="display:none" >
+					<iframe src="sub/bluetime/bluetime.html" style="height:720px;width: 3730px;border:0;" title="about"></iframe>
+				</div>
+				<div id="whismuring" class = "all" style="display:none" >
+					<iframe src="sub/whismuring/whismuring.html" style="height:720px;width: 5445px;border:0;" title="about"></iframe>
+				</div>
+				<div id="jadeandi" class = "all" style="display:none" >
+					<iframe src="sub/jadeandi/jadeandi.html" style="height:720px;width: 100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="aswelikeit" class = "all" style="display:none" >
+					<iframe src="sub/aswelikeit/aswelikeit.html" style="height:1000px;width: 100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="flipbook" class = "all" style="display:none" >
+					<iframe src="sub/flipbook/flipbook.html" style="height:1000px;width: 100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="vocal" class = "all" style="display:none" >
+					<iframe src="sub/vocal/vocal.html" style="height:720px;width: 100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="wounds" class = "all" style="display:none" >
+					<iframe src="sub/wounds/wounds.html" style="height:720px;width: 100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="dynamics" class = "all" style="display:none" >
+					<iframe src="sub/dynamics/dynamics.html" style="height:720px;width: 1905px;border:0;" title="about"></iframe>
+				</div>
+				<div id="antithesis" class = "all" style="display:none" >
+					<iframe src="sub/antithesis/antithesis.html" style="height:720px;width: 100%;border:0;" title="about"></iframe>
+				</div>
+				<div id="strikethrough" class = "all" style="display:none" >
+					<iframe src="sub/strikethrough/strikethrough.html" style="height:720px;width: 3396px;border:0;" title="about"></iframe>
+				</div>
+				<div id="double" class = "all" style="display:none" >
+					<iframe src="sub/double/double.html" style="height:720px;width: 3263px;border:0;" title="about"></iframe>
+				</div>
+				<div id="analog" class = "all" style="display:none" >
+					<iframe src="sub/analog/analog.html" style="height:720px;width: 6263px;border:0;" title="about"></iframe>
+				</div>
+				<div id="flowers" class = "all" style="display:none" >
+					<iframe src="sub/flowers/flowers.html" style="height:720px;width: 6915px;border:0;" title="about"></iframe>
+				</div>
+			</div>
 
-							<!--<a href = 'https://marrwonders.blogspot.com/2020/07/cnnmncnm-photographer-with-poets-heart.html'>
-								"@cnnmn_cnm, a Photographer with a Poet's Heart" ––Marrwonders Photo Blog
-								(Jul. 6, 2020)
-							</a>-->
 
-					</td>
-				</tr>
-			</table>
-
-		</section>
-
-</body>
-<footer>
-	Copyright © 2020 cnnmn_cnm. All Rights
-	Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br><br>
-</footer>
-</div>
+		</div>
+	</body>
 
 </html>
