@@ -53,7 +53,7 @@
 
 
 .buffer {
-  padding: 70px;
+  padding: 40px;
 }
 
 audio {
@@ -80,20 +80,14 @@ audio::-webkit-media-controls-volume-control-container{
 
 
 tab { padding-left: 3.3em; }
-	tab2 { padding-left: 1em; }
+	tab2 { padding-left: 1.5em; }
 
 
 
-.block #block1 {
-  width: 384px;
-  height: 384px;
+.block #block {
+  width: 330px;
+  height: 100%;
   float: left;
   padding-left: 50px;
   padding-right: 30px;
-}
-.block #block2 {
-  width: 600px;
-  height: 300px;
-  float: left;
-
 }

@@ -25,9 +25,11 @@ nav ul {
   text-decoration: none;
   color: #000000;
   letter-spacing: .1400em;
-  background-color: #f3f3f3 ;
+  
   
 }
+
+
 
 .header:hover {
   font-size: 15px;
@@ -37,6 +39,7 @@ nav ul {
   text-transform: none;
   text-decoration: none;
   color: #000000;
+
   letter-spacing: .1400em;
 }
 
@@ -48,6 +51,7 @@ nav ul {
   text-decoration: none;
   color: #000000;
   letter-spacing: 00em;
+  
 }
 
 
@@ -68,8 +72,11 @@ nav ul {
   text-transform: none;
   text-decoration: underline;
   color: #000000;
+  
   letter-spacing: 00em;
 }
+
+
 
 .statement {
   font-size: 13px;
