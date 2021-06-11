@@ -30,6 +30,38 @@
   letter-spacing: 00em;
 }
 
+.link{
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 00em;
+
+}
+
+.link:visited {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 00em;
+
+}
+
+.link:hover {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 00em;
+}
+
 .statement {
   font-size: 12px;
   line-height: 18px;
@@ -52,7 +84,7 @@
 
 #top {
   position: fixed;
-  width: 7600px;
+  width: 22600px;
   height: 450px;
   display: inline-block;
   padding-left: 48px;
@@ -180,6 +212,244 @@ audio::-webkit-media-controls-volume-control-container{
 
 #eleven  {
   width:  376px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+#twelve  {
+  width:  222px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#thirteen  {
+  width:  558px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+#fourteen   {
+  width:  399.45px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#fifteen  {
+  width:  399.45px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#sixteen  {
+  width:  523px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+
+#seventeen  {
+  width:  696px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#eighteen  {
+  width:  625px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#nineteen  {
+  width:  625px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#twenty  {
+  width:  222px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#twentyone  {
+  width:  691px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#twentytwo  {
+  width:  270px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#twentythree  {
+  width:  320px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#twentyfour  {
+  width:  614px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#twentyfive  {
+  width:  264px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+#twentysix  {
+  width:  320px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+#twentyseven  {
+  width:  320px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#twentyeight  {
+  width:  513px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#twentynine  {
+  width:  320px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#thirty  {
+  width:  320px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#thirtyone  {
+  width:  262px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#thirtytwo  {
+  width:  320px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#thirtythree  {
+  width:  320px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#thirtyfour  {
+  width:  762px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#thirtyfive  {
+  width:  600px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#thirtysix  {
+  width:  320px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+#thirtyseven  {
+  width:  710px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+#thirtyeight  {
+  width:  399.45px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+
+#thirtynine {
+  width:  262px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+
+
+#forty  {
+  width:  222px;
+  height: 399.45px;
+  float: left;
+  padding: 3px;
+
+}
+
+#fortyone  {
+  width:  600px;
   height: 399.45px;
   float: left;
   padding: 3px;
