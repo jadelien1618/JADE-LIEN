@@ -52,7 +52,7 @@
 
 #top {
   position: fixed;
-  width: 9600px;
+  width: 18600px;
   height: 300px;
   display: inline-block;
   padding-left: 50px;
@@ -97,13 +97,13 @@ audio::-webkit-media-controls-volume-control-container{
 
 
 .images img {
-  width: 203px;
+  width: 640px;
   height: 360px;
   float: left;
   padding: 3px;
 }
 
 #horizontal {
-  width: 641px;
+  width: 962px;
   height: 360px;
 }
