@@ -158,3 +158,13 @@ audio::-webkit-media-controls-volume-control-container{
 .special {
   line-height: 10em;
 }
+
+pre {
+  font-size: 12px;
+  line-height: 19px;
+  font-family: 'Times', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 00em;
+}
