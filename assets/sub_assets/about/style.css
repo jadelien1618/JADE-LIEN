@@ -1,0 +1,636 @@
+﻿.subitem {
+	font-size: 13px;
+	line-height: 26px;
+	font-family: 'Times', sans-serif;
+	text-transform: none;
+	text-decoration: none;
+	color: #000000;
+	letter-spacing: 00em;
+  }
+  
+.block #block1 {
+	width: 120px;
+	height: 120px;
+	float: left;
+	padding-left: 50px;
+	padding-right: 25px;
+
+}
+.block #block2 {
+	width: 40%;
+	height: auto;
+	left: 506px;
+	position: fixed;
+	float: left;
+	word-wrap: break-word;
+	white-space: initial;
+	padding-bottom:15px;
+
+
+}
+
+
+span {
+	font-size: 13px;
+	display: none; 
+}
+
+span.off {
+	font-size: 13px;
+	display: none; 
+}
+
+span.on {
+	font-size: 13px;
+	display: inline; 
+}
+
+a.game:link {
+	text-decoration:underline dotted! important;
+	-webkit-text-decoration: underline dotted ! important;
+	-webkit-text-decoration-color:gray; /* Safari */   
+	text-decoration-color: gray;
+	font-size: 13px;
+	-webkit-text-size-adjust: none;
+
+}
+a.game2:link {
+	text-decoration:none! important;
+	-webkit-text-decoration: none ! important;
+	-webkit-text-decoration-color:gray; /* Safari */   
+	text-decoration-color: gray;
+	font-size: 13px;
+	-webkit-text-size-adjust: none;
+}
+a.game_special:link {
+	text-decoration:none! important;
+	font-size: 13px;
+	-webkit-text-size-adjust: none;
+}
+
+.inbetweens {
+opacity: 0.08;
+font-size: 85%;
+}
+
+#hello  {
+	display: inline-block;
+    position: relative;
+	
+}
+#hello::before{content: '嗨';
+    display: inline-block;
+
+    position: absolute;
+    bottom: -1.18em;
+    left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#well  {
+	display: inline-block;
+	position: relative;
+	
+}
+#well::before{content: '爽';
+	display: inline-block;
+
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#not  {
+	display: inline-block;
+	position: relative;
+	
+}
+#not::before{content: '有';
+	display: inline-block;
+
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#jade {
+	display: inline-block;
+	position: relative;
+		
+	}
+	
+#jade::before{content: '小玉';
+    display: inline-block;
+
+    position: absolute;
+    bottom: -1.18em;
+    left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+	#jadelien2 {
+		display: inline-block;
+		position: relative;
+			
+		}
+		
+	#jadelien2::before{content: '她是誰';
+		display: inline-block;
+		position: absolute;
+		bottom: -1.18em;
+		left: 0;
+		color: gray;
+		text-align: center;
+		font-size: 11px;
+		width: 100%;}
+#jadelien {
+	display: inline-block;
+	position: relative;
+		
+	}
+	
+#jadelien::before{content: '連亞珏';
+	display: inline-block;
+
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+
+#whatsup {
+	display: inline-block;
+    position: relative;
+}
+#whatsup::before{content: '你好嗎';
+    display: inline-block;
+    position: absolute;
+    bottom: -1.18em;
+    left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#iloveyou {
+	display: inline-block;
+    position: relative;
+}
+#iloveyou::before{content: '我愛你';
+    display: inline-block;
+    position: absolute;
+    bottom: -1.18em;
+    left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#justkidding {
+	display: inline-block;
+    position: relative;
+}
+#justkidding::before{content: '別當真';
+    display: inline-block;
+    position: absolute;
+    bottom: -1.18em;
+    left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+
+#newyork {
+	display: inline-block;
+	position: relative;
+}
+#newyork::before{content: '紐約紐約！';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+
+#newyorkcity {
+	display: inline-block;
+	position: relative;
+}
+#newyorkcity::before{content: '沒啥印象';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#nn {
+	display: inline-block;
+	position: relative;
+}
+#nn::before{content: '12/14';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#taiwan {
+	display: inline-block;
+	position: relative;
+}
+#taiwan::before{content: '台灣';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#mediums {
+	display: inline-block;
+	position: relative;
+}
+#mediums::before{content: '形形色色';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#writing {
+	display: inline-block;
+	position: relative;
+}
+#writing::before{
+	content: '文字';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+
+#writing2 {
+	display: inline-block;
+	position: relative;
+}
+#writing2::before {
+	content: '行間字';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+#english {
+	display: inline-block;
+	position: relative;
+}
+#english::before{
+	content: '英文';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+#write {
+	display: inline-block;
+	position: relative;
+}
+#write::before{
+	content: '書寫';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+#creator {
+	display: inline-block;
+	position: relative;
+}
+#creator::before{
+	content: '怪人';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+#experimented {
+	display: inline-block;
+	position: relative;
+}
+#experimented::before{
+	content: '亂・玩';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+	#goal {
+		display: inline-block;
+		position: relative;
+	}
+	#goal::before{content: '沒有';
+		display: inline-block;
+		position: absolute;
+		bottom: -1.18em;
+		left: 0;
+		color: gray;
+		text-align: center;
+		font-size: 11px;
+		width: 100%;}
+	#new {
+		display: inline-block;
+		position: relative;
+	}
+	#new::before{content: '異';
+		display: inline-block;
+		position: absolute;
+		bottom: -1.18em;
+		left: 0;
+		color: gray;
+		text-align: center;
+		font-size: 11px;
+		width: 100%;}
+#originalityisdead {
+	display: inline-block;
+	position: relative;
+}
+#originalityisdead::before{content: '日光之下並無新事';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#function {
+	display: inline-block;
+	position: relative;
+}
+#function::before{content: '生存';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#create {
+	display: inline-block;
+	position: relative;
+}
+#create::before{content: '締造';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#ideas {
+	display: inline-block;
+	position: relative;
+}
+#ideas::before{content: '狂想';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#work {
+	display: inline-block;
+	position: relative;
+}
+#work::before{content: '創作';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#cliche {
+	display: inline-block;
+	position: relative;
+}
+#cliche::before{content: '濫調';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#mywork {
+	display: inline-block;
+	position: relative;
+}
+#mywork::before{content: '我的作品';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+#originalperspectives {
+	display: inline-block;
+	position: relative;
+}
+#originalperspectives::before{content: '原生生的';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+
+#hidden {
+	display: inline-block;
+	position: relative;
+}
+#hidden::before{content: '秘密';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+
+
+#thriving {
+	display: inline-block;
+	position: relative;
+}
+#thriving::before{content: '猖狂';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+
+#blindspots {
+	display: inline-block;
+	position: relative;
+}
+#blindspots::before{content: '遺漏掉的';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;}
+#mandarin {
+	display: inline-block;
+	position: relative;
+}
+#mandarin::before{
+	content: '中文版';
+	display: inline-block;
+	position: absolute;
+	bottom: -1.18em;
+	left: 0;
+	color: gray;
+	text-align: center;
+	font-size: 11px;
+	width: 100%;
+}
+
+
+h1 {
+	font-size: 19px;
+	display: inline;
+	font-weight: normal;
+
+}
+
+h2 {
+	font-size: 26px;
+	display: inline;
+	font-weight: normal;
+
+}
+
+h3 {
+	font-size: 25px;
+	display: inline;
+	font-weight: normal;
+
+}
+
+h4 {
+	font-size: 28px;
+	display: inline;
+	font-weight: normal;
+
+}
+h5 {
+	font-size: 11PX;
+	display: inline;
+	font-weight: normal;
+
+}
+
+h6 {
+	font-size: 13px;
+	display: inline;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+
+#red {
+	color: red !important;
+
+}
+#linethrough {
+	text-decoration: line-through;
+}
+
+
+a:link {
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+}
+a:hover:not(#logo) {
+	color: black;
+	text-decoration: underline;
+	font-size: 13px;
+}
+a:visited {
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+a.special:link {
+	color: gray;
+	text-decoration: none;
+}
+a.special:hover {
+	color: black;
+	text-decoration: none !important;
+}
+a.special:visited {
+	color: gray;
+	text-decoration: none;
+}
