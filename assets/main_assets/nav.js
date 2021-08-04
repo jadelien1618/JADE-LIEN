@@ -39,6 +39,8 @@ document.write("iPhone</a> | <a href='digital.html' class='item'>digital</a> | "
 document.write("<a href='analog.html' class='item'>analog</a></li>");
 document.write("<li><a href='blue-time.html' class='item'>");
 document.write("2021 Blue Time (cyanotype)</a></li>");
+document.write("<li><a href='save-救亡圖存.html' class='item'>");
+document.write("2021 SAVE: 救亡圖存</a></li>");
 document.write("<li><a href='the-look-of-flowers-that-are-looked-at.html' class='item'>");
 document.write("the look of flowers that are looked at</a></li>");
 document.write("<li><a href='dynamics-of-growth-in-a-finite-world.html' class='item'>");
