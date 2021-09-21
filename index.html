@@ -3,58 +3,113 @@
 
 	<head>
 		<meta charset="UTF-8">
-
 		<link rel="stylesheet" href="assets/main_assets/style.css">
+		<link rel="stylesheet" href="assets/sub_assets/about/style.css">
 
-		<title>Jade Lien</title>
+		<title>ABOUT</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-		<style type="text/css"></style>
+		<style type="text/css">
+			#right {
+				left: 310px;
+				overflow-wrap: break-word;
+			}
+		</style>
 		<script type="text/javascript">
-				function toggle(obj,all) {
-					
-					var hide=document.querySelectorAll('.'+all);
-					var i =-1;
-					
-					while (node=hide[++i]) {
-						node.style.display ="none";
-					};
 
-					var thisElem  = document.getElementById(obj);
-					var wasShown  = (thisElem.style.display == "block");
+			function opening() {
+				$('[data-o]').click(function (e) {
+					e.preventDefault();
+					var openedby = $(this).attr('data-o');
+					$('[data-ob="' + openedby + '"]').addClass('on');
 
-					if(!wasShown){
-						thisElem.style.display = "block";
-					}
-				}
+					var closedby = $(this).attr('data-c');
+					$('[data-cb="' + closedby + '"]').remove();
 
-				function topFunction() {
-					document.body.scrollTop = 0; // For Safari
-					document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-					document.getElementById('right').scrollLeft = 0;
-					document.getElementById('left').scrollTop = 0;
-				}
+					$(this).contents().unwrap();
 
-			//	if (screen.width <= 699) {
-			//		document.location = "https://jadelien1618.github.io/ntuphoto_horizontal/mobile/mobile.html";
-			//	}
-				
-			//	if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
- 			//	  location.replace("https://jadelien1618.github.io/ntuphoto_horizontal/mobile/mobile.html");
-			//	}
+				});
+
+			}
+			$(document).ready(function () {
+				opening();
+			});
 
 		</script>
 	</head>
 
 	<body>
-		<div class = "outercontainer">
 
+
+		<div id="left" class ="scrolling-wrapper-left"><script src="assets/main_assets/nav.js"></script></div>
+
+		<div id="right" class ="scrolling-wrapper">
+			<div class="buffer"></div>
+			<div class="subitem">
+
+			<div class="block">
+				<div id="block1"><img src="assets/sub_assets/about/jade.jpg" width="100%" height="100%"></div>
+				<div id="block2">
 			
+					<a data-o="1.1" href="#" class="game" id="hello">Hello</a>.
+					<span data-ob="1.1"><a data-o="1.2" href="#" class="game" id="whatsup">What's up?</a></span>
+					<span data-ob="1.2"><a data-o="1.3" data-c="1.3" data-cb="1.3" href="#" class="game"
+							id="iloveyou">I love you.</a></span>
+					<span data-ob="1.3"><a data-o="1.4" data-c="1.4" data-cb="1.4" href="#" class="game"
+							id="justkidding">Just kidding</a><a data-o="1.4" data-c="1.4" data-cb="1.4" href="#" class="game_special">...</a></span>
+					<span data-ob="1.4">I hope you're doing well.</span>
+					<br>
 
+					My name is
+					<a data-o="2.1" data-c="2.1" data-cb="2.1" href="#" class="game" id="jade">Jade</a><span
+						data-ob="2.1"><a data-o="2.2" data-c="2.2" data-cb="2.2" href="#" class="game"
+							id="jadelien">Jade Lien</a></span><span data-ob="2.2"><a data-o="3.1" href="#" class="game" id="jadelien2">Jade Lien</a></span>.
 
-			<script src="assets/main_assets/nav.js"></script>
+						
 
+					<span data-ob="2.2">I was born in
+						<a data-o="2.3" data-c="2.4" data-cb="2.4" href="#" class="game" id="newyork">New York, NY.</a>
 
+						<span data-ob="2.3">New York, NY, <a data-o="2.5" href="#" class="game" id="nn">1999</a></span><span
+								data-ob="2.5">, and grew up in <a data-o="2.6" data-c="2.6" data-cb="2.6" href="#" class="game" id ="taiwan">
+								Taiwan</a></span><span data-ob="2.6">Taipei, Taiwan</span><span data-ob="2.3">.</span></span>
+								
+									
+
+					<span data-ob="3.1"><br>As a <a data-o="3.2" data-c="3.2" data-cb="3.2" href="#"  class="game" id ="creator" >creator</a><a data-o="3.2" data-c="3.2" data-cb="3.2" href="#" class="game_special">...</a></span><span data-ob="3.2" >creator, I have <a data-o="3.4" href="#" class="game" id=experimented>experimented</a> with different <a data-o="3.3" href="#" class="game"
+						id="mediums">artistic mediums</a></span><span data-ob="3.3"> including film,
+						photography, <a data-o="4.1" data-c="4.1" data-cb="4.1" href="#"  class="game" id="writing">writing</a><span data-ob =4.1>writing</span>, and digital art</span><span 
+						data-ob="3.4">, with the <a data-o="3.5" data-c="3.5" data-cb="3.5" href="#"  class="game" id="goal">goal</a><a data-o="3.5" data-c="3.5" data-cb="3.5" href="#"  class="game_special">..</span></a><span data-ob="3.5"> goal of finding <a data-o="3.6" href="#" class=game id="new" >new</a> visuals and <a data-o="3.9" href="#"  class="game" id="ideas">ideas</a></span><span data-ob="3.6"> in an era where <a data-o="3.7" href="#"   class="game" id=originalityisdead>"originality is dead"</a><span data-ob=3.7> is itself a clichéd term</span></span><span data-ob="3.2">.</span>
+						<span data-ob="3.9">Poetry is the basis of <a data-c="3.10" data-cb="3.10" style="text-decoration: none;">my</a> <a data-o="3.10" data-c="3.10" data-cb="3.10" href="#"  class="game" id="work">work</a></span><span data-ob=3.10> <a data-o="3.12" href="#" class="game" id="mywork">my work</a>, technology the tool I use to create</span><span data-ob="3.9">.</span>
+						<span data-ob="3.12">Through them, I seek to discover <a data-o="3.13" href="#"  class="game" id="originalperspectives">original perspectives</a></span><span data-ob="3.13">hidden and <a data-o="3.15" href="#"  id="thriving" class="game"> thriving</a><span data-ob=3.15> in the "blind-spots" of our world</span></span><span data-ob="3.12">.</span>
+						
+
+					<span data-ob="4.1"><br>I <a data-o="4.2" href="#"  class="game" id="write">write</a><span data-ob="4.2"> / <a data-o="4.4" href="#"  class="game" id="function">function</a></span><span data-ob="4.4"> / create</span></a> in <span data-ob="4.3">both </span><a data-o="4.3" href="#"  class="game" id="english">English</a><span data-ob="4.3"> and <a data-o="4.6" href="#"  class="game" id="mandarin">Mandarin</a></span></span><span data-ob="4.1">.</span>
+					
+					
+					
+					<SPAN DATA-OB="4.6">
+						<br><br>	
+						激進派無邪天真份子 (radical innocent) / 喝水醉人、理性瘋子<a data-o="5.1"  data-c="5.1" data-cb="5.1" href="#"  class="game2" ><b> ➝</b></a><br>	
+
+						<span data-ob="5.1">出生在20世紀的最後一個月 人生目標是活超過三個世紀					<a data-o="5.2"  data-c="5.2" data-cb="5.2" href="#"  class="game2" ><b>➝</b></a><br></SPAN>
+						<span data-ob="5.2">日夜遊走在夢與現實的夾縫之間，樂活於科技魔幻虛實世界<a data-o="5.3"  data-c="5.3" data-cb="5.3" href="#"  class="game2"><b> ➝</b></a><br></span>
+						<span data-ob="5.3">是個不折不扣的數位時代份子，偶爾掉陷網際網路兔子洞，奇遇種種受人漠視的非常之事<a data-o="5.4"  data-c="5.4" data-cb="5.4" href="#"  class="game2"><b> ➝</b></a><br></span>
+						<span data-ob="5.4">喜愛涉獵的事物極為龐雜，企圖開拓現實裡未經探索的新領域<a data-o="5.5"  data-c="5.5" data-cb="5.5" href="#"  class="game2"><b> ➝</b></a><br></span>
+						<span data-ob="5.5">使命是至「元敘事」的眾多死角與盲點中，挖掘出淺藏於現實表面之下的活標本（人、花、事、時、地、物）<a data-o="5.6"  data-c="5.6" data-cb="5.6" href="#"  class="game2"><b>➝</b></a><br></span>
+						<span data-ob="5.6">熱情嘗試文字、平面攝影與動態影像創作
+
+						</span>
+
+						</SPAN>
+
+				</div>
+			</div>
+
+			</div>
+			</div>
 		</div>
+
 	</body>
 
 </html>
