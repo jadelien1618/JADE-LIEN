@@ -163,6 +163,10 @@ document.write("<img src='assets/main_assets/ig.png' style='width:28px; height:2
    
 document.write("<br><br><br>");
 document.write("</ul>");
+
+
+
+
 document.write("</nav>");
 
 document.write("</div>");

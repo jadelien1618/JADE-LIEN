@@ -38,16 +38,29 @@
 			img {
 				width:100%;
 			}
+			.buffer {
+				height: 90px;
+			}
 		}
+
 		</style>
+		<script>
+			function showNavigation(){
+				nav.style.display ="block";
+				
+
+			}
+		</script>
 
 	</head>
 
 	<body>
+		
 		<div id="left" class="scrolling-wrapper-left"><script src="assets/main_assets/nav.js"></script></div>
 		
 		<div id="right" class ="scrolling-wrapper">
 			<div class = "buffer"></div>
+
 			<table>
 				<tr>
 
@@ -66,6 +79,10 @@
 				</tr>
 			</table>
 		</div>
+		
+		<a href="navigation.html">
+			<img src = 'assets/main_assets/nav.png' class='navigationButton'>
+		</a>
 	</body>
 
 </html>
