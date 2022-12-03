@@ -3,7 +3,9 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="assets/main_assets/style.css">
+		
 		
 		<!--<link rel="stylesheet" href="assets/sub_assets/about/style.css">-->
 
@@ -22,9 +24,11 @@
     			cursor: pointer;
 			}
 
-		@media (max-width: 768px) {
-			#right {margin-left: 0px;
-		}
+		@media only screen and (max-width: 768px){
+			#right {margin-left: 0px;}
+			img {
+				width: 80%;
+			}
 	}
 		</style>
 		<script type="text/javascript">
@@ -42,6 +46,7 @@
 			if (slideIndex > 9) {
 				slideIndex=0;
 			}
+	
 		}
 
 		</script>

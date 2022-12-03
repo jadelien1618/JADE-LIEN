@@ -151,7 +151,7 @@ nav ul {
   text-transform: none;
   text-decoration: none;
   color: #2a2a2a;
-  letter-spacing: 00em;
+  letter-spacing: .100em;
 }
 .link:hover {
   font-size: 10px;
@@ -160,7 +160,7 @@ nav ul {
   text-transform: none;
   text-decoration: none;
   color: #9c9c9c;
-  letter-spacing: 00em;
+  letter-spacing: .100em;
   cursor: pointer;
 
 }
@@ -241,7 +241,7 @@ audio::-webkit-media-controls-volume-control-container{
   display: none !important;
 }
   
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   /*
   #left {
     display:none;
