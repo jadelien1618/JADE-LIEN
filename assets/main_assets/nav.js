@@ -115,7 +115,7 @@ document.write("</div>");
 
 document.write("<li><a href=# onclick='writingToggle()' class='bigItem'>Writing</a></li>");
 document.write("<div id='writing_item' style='display: none;'>");
-document.write("<li><a href='https://drive.google.com/file/d/1p-EKLWxYPV3ayMcPzl94PDFCKGCCP66Y/view?usp=sharing'  target='_blank' class='item'>");
+document.write("<li><a href='https://drive.google.com/file/d/12_HWTKO86CDthG7r5Pu76IAEboPM5VZn/view?usp=sharing'  target='_blank' class='item'>");
 document.write("&nbsp &nbsp 2021 M.I.A.</a></li>");
 document.write("</div>");
 
