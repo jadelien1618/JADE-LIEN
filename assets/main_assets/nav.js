@@ -55,6 +55,8 @@ document.write("<li><a href=# onclick='installationToggle()' class='bigItem'>Ins
 document.write("<div id='installation_item' style='display: none;'>");
 document.write("<li><a href='at-your-altar.html' class='item'>");
 document.write("&nbsp &nbsp 2021 / atYourAltar /</a></li>");
+document.write("<li><a href='a-meditation-on-noise-and-signals.html' class='item'>");
+document.write("&nbsp &nbsp 2023 A Meditation on Noise and Signals</a></li>");
 document.write("</div>");
 
 
