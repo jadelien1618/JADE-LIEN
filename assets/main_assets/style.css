@@ -112,6 +112,29 @@ nav ul {
   letter-spacing: .1000em;
 }
 
+.archiveItem {
+  font-size: 10px;
+  line-height: 20px;
+  font-family: 'Product Sans Thin', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #b8b8b8;
+  letter-spacing: .1000em;
+  
+}
+
+.archiveItem:hover {
+  font-size: 10px;
+  
+  font-family: 'Product Sans Thin', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color: #ef8f6b;
+
+  letter-spacing: .1000em;
+}
+
+
 .copyright {
   font-size: 10px;
   line-height: 15px;
