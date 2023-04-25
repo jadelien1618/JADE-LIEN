@@ -95,7 +95,7 @@ document.write("<div id='photography_item' style='display: none;'>");
 //document.write("iPhone</a> | ");
 //document.write("<a href='analog.html' class='item'>analog</a></li>");
 document.write("<li><a href='blue-time.html' class='item'>");
-document.write("&nbsp &nbsp 2021 Blue Time (cyanotype)</a></li>");
+document.write("&nbsp &nbsp 2021 Blue Time</a></li>");
 document.write("<li><a href='save-救亡圖存.html' class='item'>");
 document.write("&nbsp &nbsp 2021 SAVE: 救亡圖存</a></li>");
 //document.write("<li><a href='the-look-of-flowers-that-are-looked-at.html' class='item'>");
