@@ -42,6 +42,16 @@
       x.style.display = "none";
     }
   }
+
+  function archiveToggle() {
+    var x = document.getElementById("archive_item");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
 document.write("<div id='left' class='scrolling-wrapper-left'>");
 document.write("<header>");
 document.write("<a class='header' href='index.html'>");
@@ -121,6 +131,12 @@ document.write("<li><a href='https://drive.google.com/file/d/12_HWTKO86CDthG7r5P
 document.write("&nbsp &nbsp 2021 M.I.A.</a></li>");
 document.write("</div>");
 
+
+document.write("<li><a href=# onclick='archiveToggle()' class='bigItem'>Archive</a></li>");
+document.write("<div id='archive_item' style='display: none;'>");
+document.write("<li><a href='untitled.html'  class='item'>");
+document.write("&nbsp &nbsp 2023 Untitled</a></li>");
+document.write("</div>");
 
 document.write("<br><br>");
 
