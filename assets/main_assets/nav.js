@@ -102,6 +102,8 @@ document.write("&nbsp &nbsp 2021 SAVE: 救亡圖存</a></li>");
 //document.write("the look of flowers that are looked at</a></li>");
 document.write("<li><a href='dynamics-of-growth-in-a-finite-world.html' class='item'>");
 document.write("&nbsp &nbsp 2021 Dynamics of Growth in an Ininite World</a></li>");
+document.write("<li><a href='untitled-1.html'  class='item'>");
+document.write("&nbsp &nbsp untitled </a></li>");
 //document.write("<li><a href='fossils.html' class='item'>");
 //document.write("fossils</a></li>");
 //document.write("<li><a href='double-self-portrait.html' class='item'>");
@@ -131,19 +133,19 @@ document.write("<li><a href='https://drive.google.com/file/d/12_HWTKO86CDthG7r5P
 document.write("&nbsp &nbsp 2021 M.I.A.</a></li>");
 document.write("</div>");
 
-document.write("<li><a href=# onclick='archiveToggle()' class='archiveItem'>(archive)</a></li>");
-document.write("<div id='archive_item' style='display: none;'>");
-document.write("<li><a href='untitled-1.html'  class='item'>");
-document.write("&nbsp &nbsp 2023 Untitled #1</a></li>");
-document.write("<li><a href='untitled-2.html'  class='item'>");
-document.write("&nbsp &nbsp 2023 Untitled #2</a></li>");
-document.write("<li><a href='untitled-3.html'  class='item'>");
-document.write("&nbsp &nbsp 2023 Untitled #3</a></li>");
-document.write("<li><a href='playground-no.36.html'  class='item'>");
-document.write("&nbsp &nbsp 2023 Playground No.36</a></li>");
-document.write("<li><a href='wonder-wounds.html'  class='item'>");
-document.write("&nbsp &nbsp 2021 Wonder Wounds</a></li>");
-document.write("</div>");
+//document.write("<li><a href=# onclick='archiveToggle()' class='archiveItem'>(archive)</a></li>");
+//document.write("<div id='archive_item' style='display: none;'>");
+//document.write("<li><a href='untitled-1.html'  class='item'>");
+//document.write("&nbsp &nbsp 2023 Untitled #1</a></li>");
+//document.write("<li><a href='untitled-2.html'  class='item'>");
+//document.write("&nbsp &nbsp 2023 Untitled #2</a></li>");
+//document.write("<li><a href='untitled-3.html'  class='item'>");
+//document.write("&nbsp &nbsp 2023 Untitled #3</a></li>");
+//document.write("<li><a href='playground-no.36.html'  class='item'>");
+//document.write("&nbsp &nbsp 2023 Playground No.36</a></li>");
+//document.write("<li><a href='wonder-wounds.html'  class='item'>");
+//document.write("&nbsp &nbsp 2021 Wonder Wounds</a></li>");
+//document.write("</div>");
 
 document.write("<br><br>");
 
