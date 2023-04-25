@@ -136,6 +136,8 @@ document.write("<li><a href=# onclick='archiveToggle()' class='bigItem'>Archive<
 document.write("<div id='archive_item' style='display: none;'>");
 document.write("<li><a href='untitled.html'  class='item'>");
 document.write("&nbsp &nbsp 2023 Untitled</a></li>");
+document.write("<li><a href='wonder-wounds.html'  class='item'>");
+document.write("&nbsp &nbsp 2021 Wonder Wounds</a></li>");
 document.write("</div>");
 
 document.write("<br><br>");
