@@ -131,7 +131,7 @@ document.write("<li><a href='https://drive.google.com/file/d/12_HWTKO86CDthG7r5P
 document.write("&nbsp &nbsp 2021 M.I.A.</a></li>");
 document.write("</div>");
 
-document.write("<li><a href=# onclick='archiveToggle()' class='bigItem'>Archive</a></li>");
+document.write("<li><a href=# onclick='archiveToggle()' class='archiveItem'>(archive)</a></li>");
 document.write("<div id='archive_item' style='display: none;'>");
 document.write("<li><a href='untitled-1.html'  class='item'>");
 document.write("&nbsp &nbsp 2023 Untitled #1</a></li>");
