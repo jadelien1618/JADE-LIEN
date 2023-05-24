@@ -174,8 +174,8 @@ document.write("<br><br>");
 
 document.write("<li><a href='about.html' class='bigItem'>");
 document.write("About</a></li>");
-document.write("<li><a href='experiences.html' class='bigItem'>");
-document.write("Experiences</a></li>");
+document.write("<li><a href='experience.html' class='bigItem'>");
+document.write("Experience</a></li>");
 document.write("<li><a href='contact.html' class='bigItem'>");
 document.write("Contact</a></li><br><br>");
 //document.write("<li><a href='https://www.instagram.com/cnnmn_cnm/' target='_blank' class='item'>");
